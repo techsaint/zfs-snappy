@@ -96,6 +96,7 @@ zfs_prop_init(void)
 		{ "gzip-8",	ZIO_COMPRESS_GZIP_8 },
 		{ "gzip-9",	ZIO_COMPRESS_GZIP_9 },
 		{ "zle",	ZIO_COMPRESS_ZLE },
+		{ "snappy",	ZIO_COMPRESS_SNAPPY },
 		{ NULL }
 	};
 

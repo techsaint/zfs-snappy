@@ -52,6 +52,7 @@ libzpool_la_SOURCES = \
 	$(top_srcdir)/module/zfs/rrwlock.c \
 	$(top_srcdir)/module/zfs/sa.c \
 	$(top_srcdir)/module/zfs/sha256.c \
+        $(top_srcdir)/module/zfs/snappy.c \
 	$(top_srcdir)/module/zfs/spa.c \
 	$(top_srcdir)/module/zfs/spa_boot.c \
 	$(top_srcdir)/module/zfs/spa_config.c \
@@ -90,7 +91,8 @@ libzpool_la_SOURCES = \
 
 libzpool_la_LIBADD = \
 	$(top_builddir)/lib/libunicode/libunicode.la \
-	$(top_builddir)/lib/libuutil/libuutil.la
+	$(top_builddir)/lib/libuutil/libuutil.la \
+	$(top_builddir)/lib/libsnappy/libsnappy.la
 
 libzpool_la_LDFLAGS = -pthread -version-info 1:1:0
 

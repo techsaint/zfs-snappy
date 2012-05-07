@@ -50,6 +50,7 @@ SPL_MODULES=(                                         \
 ZFS_MODULES=(                                         \
         ${MODDIR}/avl/zavl.ko                         \
         ${MODDIR}/nvpair/znvpair.ko                   \
+        ${MODDIR}/snappy/zsnappy.ko                 \
         ${MODDIR}/unicode/zunicode.ko                 \
         ${MODDIR}/zcommon/zcommon.ko                  \
         ${MODDIR}/zfs/zfs.ko                          \

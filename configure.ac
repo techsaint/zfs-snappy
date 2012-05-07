@@ -81,6 +81,7 @@ AC_CONFIG_FILES([
 	lib/libavl/Makefile
 	lib/libefi/Makefile
 	lib/libnvpair/Makefile
+	lib/libsnappy/Makefile
 	lib/libunicode/Makefile
 	lib/libuutil/Makefile
 	lib/libzpool/Makefile
@@ -100,6 +101,7 @@ AC_CONFIG_FILES([
 	cmd/sas_switch_id/Makefile
 	module/Makefile
 	module/avl/Makefile
+	module/snappy/Makefile
 	module/nvpair/Makefile
 	module/unicode/Makefile
 	module/zcommon/Makefile
