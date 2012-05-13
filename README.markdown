@@ -1,11 +1,12 @@
-Native ZFS for Linux! ZFS is an advanced file system and volume manager
-which was originally developed for Solaris. It has been successfully 
-ported to FreeBSD and now there is a functional Linux ZFS kernel port
-too. The port currently includes a fully functional and stable SPA, DMU,
-and ZVOL with a ZFS Posix Layer (ZPL) on the way!
 
+This is an experiment, marrying Google's Snappy Compression library (via snappy-c) and the zfsonlinux project.
+To get up and running, do the following:
+
+    $ ./autoconf.sh
     $ ./configure
-    $ make pkg
+    $ sudo make install
+    
 
 Full documentation for building, configuring, and using ZFS can be
-found at: <http://zfsonlinux.org>
+found at: <http://zfsonlinux.org> 
+And snappy-c info can be found at: <https://github.com/andikleen/snappy-c>
